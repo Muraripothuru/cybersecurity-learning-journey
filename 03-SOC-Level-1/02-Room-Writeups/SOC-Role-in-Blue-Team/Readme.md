@@ -5,27 +5,17 @@
 ## 1. Room Information
 
 | Field | Details |
-
 |---|---|
-
 | Platform | TryHackMe |
-
 | Learning Path | SOC Level 1 |
-
 | Room Name | SOC Role in Blue Team |
-
-Room URL | https://tryhackme.com/room/socroleinblueteam
-
+| Room URL | https://tryhackme.com/room/socroleinblueteam |
 | Category | Blue Team / SOC Fundamentals |
-
 | Difficulty | Introductory concepts |
-
-| Status | Studied. Update completion status |
-
+| Status | Studied — update completion status |
 | Documentation | Created as part of my SOC Level 1 learning journey |
 
 ---
-
 ## 2. Learning Objectives
 
 The main objectives of this room were to understand:
@@ -114,19 +104,13 @@ This example demonstrates how defensive security teams help reduce the impact of
 
 Both teams are important in cybersecurity. Their objectives are different.
 
-| Area Blue Team | Red Team |
-
+| Area | Blue Team | Red Team |
 |---|---|---|
-
 | Main focus | Defensive security | Offensive security |
-
 | Objective | Protect systems | Test security by simulating attacks |
-
 | Activities | Monitoring, detection, investigation, response | Penetration testing, attack simulation |
-
 | Main question | How can we detect and stop attacks? | How can an attacker exploit the environment? |
-
-| Example | Investigating login activity | Testing whether authentication can be bypassed |
+| Example | Investigating suspicious login activity | Testing whether authentication can be bypassed |
 
 ### Purple Team
 
@@ -149,43 +133,25 @@ In an organisation security analysts usually work within a department that repor
 A simplified reporting structure can look like this:
 
 ```text
-
-CEO
-
-CISO
-
-|
-
-Information Security
-
-Management
-
-|
-
-+----------+----------+
-
-|          |          |
-
-Blue Team   Red Team   GRC Team
-
-|
-
-SOC
-
-|
-
-+----+----------------+
-
-|         |           |
-
-L1        L2       SOC Engineers
-
+                 CEO
+                  |
+                 CISO
+                  |
+        Information Security
+             Management
+                  |
+       +----------+----------+
+       |          |          |
+    Blue Team   Red Team   GRC Team
+       |
+      SOC
+       |
+  +----+----------------+
+  |         |           |
+ L1        L2       SOC Engineers
 Analysts  Analysts
-
-|
-
-SOC Manager
-
+       |
+   SOC Manager
 ```
 
 *Note: This is a simplified conceptual diagram. Actual reporting structures differ between organisations.*
@@ -551,18 +517,12 @@ The SOC may escalate the incident to the incident response team according to the
 The SOC and CIRT work together. Their focus can differ.
 
 | SOC | CIRT |
-
 |---|---|
-
 | Continuous security monitoring | Specialist incident response |
-
-Alert triage | Deeper incident investigation |
-
-Initial investigation | Incident coordination and response |
-
-| Detection and escalation | Containment, eradication and recovery support |
-
-Daily operational security | Handling incidents |
+| Alert triage | Deeper incident investigation |
+| Initial investigation | Incident coordination and response |
+| Detection and escalation | Containment, eradication, and recovery support |
+| Daily operational security | Handling significant incidents |
 
 A SOC can be involved throughout an incident. CIRT does not necessarily replace the SOC; the teams often collaborate.
 
@@ -765,21 +725,15 @@ An MSSP may provide SOC services to customers.
 
 ### Internal SOC, vs MSSP comparison
 
-| Area Internal SOC | MSSP |
-
+| Area | Internal SOC | MSSP |
 |---|---|---|
-
 | Organisation | Works for one organisation | Works for a service provider |
+| Customers | Protects its own organisation | Supports multiple client organisations |
+| Environment | Usually focuses on one organisation's environment | May handle different client environments |
+| Tools | Uses tools selected for its environment | May work with different client tools and platforms |
+| Workload | Depends on internal operations and incident volume | May involve multiple customer alert queues |
+| Exposure | Develops deep knowledge of one organisation | Can gain exposure to different environments |
 
-| Customers | Protects its organisation | Supports multiple client organisations |
-
-| Environment | Usually focuses on one organisations environment | May handle different client environments |
-
-| Tools | Uses tools selected for its environment | May work with client tools and platforms |
-
-| Workload | Depends on operations and incident volume | May involve multiple customer alert queues |
-
-| Exposure | Develops knowledge of one organisation | Can gain exposure to different environments |
 
 ### Which is better for a beginner?
 
@@ -920,23 +874,14 @@ Imagine a company detects failed login attempts followed by an unexpected succes
 A possible response workflow:
 
 | Stage Team / Role | Responsibility |
-
 |---|---|---|
-
-1 | SIEM / Monitoring tools | Generate an alert from authentication events |
-
+| 1 | SIEM / Monitoring tools | Generate an alert from authentication events |
 | 2 | SOC L1 |. Triage the alert |
-
 | 3 | SOC L2 | Perform investigation if suspicious |
-
 | 4 | Incident Response Team | Coordinate response if an incident is confirmed or requires specialist handling |
-
 | 5 | IT Team | Support account or system remediation |
-
 | 6 | SOC Engineers | Improve monitoring and detection rules |
-
 | 7 | Security Leadership | Oversee organisational risk and response decisions |
-
 This is an illustrative workflow. Actual responsibilities depend on the organisations incident response plan.
 
 ### Why this matters
@@ -958,35 +903,20 @@ Understanding team responsibilities helps a SOC analyst:
 # 11. Important Terminology
 
 Term | Full Form | Explanation |
-
 |---|---|---|
-
 | Blue Team |. | Defensive cybersecurity team |
-
 | Red Team |. | Team that simulates attacks to test security |
-
 | Purple Team |. | Collaborative approach between Red and Blue Teams
-
 | SOC | Security Operations Centre | Function responsible for security monitoring and investigation |
-
 | CISO | Chief Information Security Officer | Senior information security leader |
-
 | CIRT | Cyber Incident Response Team | Team supporting incident response |
-
 | CSIRT | Computer Security Incident Response Team | Another common incident response team name |
-
 | CERT | Computer Emergency Response Team | Incident response organisation or team name
-
 | GRC | Governance, Risk and Compliance | Security governance and risk management function |
-
 | MSSP | Managed Security Services Provider | External provider delivering managed security services |
-
 | SIEM | Security Information and Event Management | Platform for collecting and analysing security events |
-
-EDR | Endpoint Detection and Response | Technology for endpoint monitoring and investigation |
-
+| EDR | Endpoint Detection and Response | Technology for endpoint monitoring and investigation |
 | IOC | Indicator of Compromise | Evidence that may indicate malicious activity |
-
 | DFIR | Digital Forensics and Incident Response | Investigation and response involving digital evidence |
 
 ---
