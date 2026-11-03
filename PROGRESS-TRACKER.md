@@ -67,5 +67,4 @@ This file tracks learning progress separately from documentation progress.
 |---|---|
 | 2026-11-03 | Created the initial progress tracker |
 
-**Note:** Update this file whenever learning or documentation progress changes. Do not mark a task complete until it has actually been completed.
 
