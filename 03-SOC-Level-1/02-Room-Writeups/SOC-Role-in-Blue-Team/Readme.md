@@ -882,6 +882,8 @@ A possible response workflow:
 | 5 | IT Team | Support account or system remediation |
 | 6 | SOC Engineers | Improve monitoring and detection rules |
 | 7 | Security Leadership | Oversee major organisational risk and response decisions |
+
+
 This is an illustrative workflow. Actual responsibilities depend on the organisations incident response plan.
 
 
