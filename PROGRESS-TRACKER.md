@@ -36,7 +36,14 @@ This file tracks learning progress separately from documentation progress.
 - [ ] Review and publish documentation
 
 ### SOC Level 1
+### Rooms
+
+- [ ] SOC Role in Blue Team
+- [ ] Next SOC Level 1 room
 - [ ] Record completed rooms
+
+### Documentation
+- [ ] Created SOC Role in Blue Team room write-up 
 - [ ] Document SOC fundamentals
 - [ ] Document SIEM concepts
 - [ ] Practise log analysis
