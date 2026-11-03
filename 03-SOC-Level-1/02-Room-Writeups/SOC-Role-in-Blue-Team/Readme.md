@@ -38,7 +38,7 @@ The main objectives of this room were to understand:
 
 ---
 
-## 3.
+## 3.  Introduction
 
 Cybersecurity is not handled by a person or department in a large organisation. Different teams work together to protect the organisations systems, networks, applications and information.
 
