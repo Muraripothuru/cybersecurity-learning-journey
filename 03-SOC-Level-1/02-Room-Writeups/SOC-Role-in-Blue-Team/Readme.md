@@ -873,16 +873,17 @@ Imagine a company detects failed login attempts followed by an unexpected succes
 
 A possible response workflow:
 
-| Stage Team / Role | Responsibility |
+| Stage | Team / Role | Responsibility |
 |---|---|---|
 | 1 | SIEM / Monitoring tools | Generate an alert from authentication events |
-| 2 | SOC L1 |. Triage the alert |
-| 3 | SOC L2 | Perform investigation if suspicious |
+| 2 | SOC L1 | Review and triage the alert |
+| 3 | SOC L2 | Perform deeper investigation if suspicious |
 | 4 | Incident Response Team | Coordinate response if an incident is confirmed or requires specialist handling |
 | 5 | IT Team | Support account or system remediation |
 | 6 | SOC Engineers | Improve monitoring and detection rules |
-| 7 | Security Leadership | Oversee organisational risk and response decisions |
+| 7 | Security Leadership | Oversee major organisational risk and response decisions |
 This is an illustrative workflow. Actual responsibilities depend on the organisations incident response plan.
+
 
 ### Why this matters
 
