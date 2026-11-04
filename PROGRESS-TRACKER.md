@@ -36,21 +36,16 @@ This file tracks learning progress separately from documentation progress.
 - [ ] Review and publish documentation
 
 ### SOC Level 1
-### Rooms
 
+### Completed Rooms
 - [x] SOC Role in Blue Team
-- [ ] Next SOC Level 1 room
-- [ ] Record completed rooms
+- [x] Humans as Attack Vectors
+- [ ] Next Systems as Attack Vectors
 
 ### Documentation
-- [x] Created SOC Role in Blue Team room write-up 
-- [ ] Document SOC fundamentals
-- [ ] Document SIEM concepts
-- [ ] Practise log analysis
-- [ ] Document phishing analysis
-- [ ] Practise network traffic analysis
-- [ ] Document threat detection concepts
-- [ ] Document incident response concepts
+- [x] Created SOC Role in Blue Team room write-up
+- [x] Created Human as Attack Vector room write-up
+
 
 ### Independent Practical Labs
 - [ ] Complete a log analysis exercise
