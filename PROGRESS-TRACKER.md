@@ -40,11 +40,12 @@ This file tracks learning progress separately from documentation progress.
 ### Completed Rooms
 - [x] SOC Role in Blue Team
 - [x] Humans as Attack Vectors
-- [ ] Next Systems as Attack Vectors
+- [x] Systems as Attack Vectors
 
 ### Documentation
 - [x] Created SOC Role in Blue Team room write-up
 - [x] Created Human as Attack Vector room write-up
+- [x] Created System as Attack Vectors room write-up
 
 
 ### Independent Practical Labs
