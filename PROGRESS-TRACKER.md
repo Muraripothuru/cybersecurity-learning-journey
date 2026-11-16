@@ -68,6 +68,6 @@ This file tracks learning progress separately from documentation progress.
 
 | Date | Update |
 |---|---|
-| 2026-11-03 | Created the initial progress tracker |
+| 2026-11-16 | Created the SOC L1 Triage room write-up |
 
 
